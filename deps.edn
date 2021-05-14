@@ -1,5 +1,7 @@
-{:paths     ["resources" "src"]
- :deps {org.clojure/clojure {:mvn/version "1.8.0"},
-        org.clojure/java.classpath {:mvn/version "0.2.3"},
-        clj-time {:mvn/version "0.12.0"},
-        ragtime/ragtime {:git/url "https://github.com/defsquare/ragtime" :sha "9602c4d24b2e82de8980db21e776a0d974aadbc4"}}}
+{:paths ["resources" "src"]
+ :deps  {org.clojure/clojure        {:mvn/version "1.8.0"},
+         org.clojure/java.classpath {:mvn/version "0.2.3"},
+         clj-time/clj-time          {:mvn/version "0.12.0"},
+         ragtime/ragtime            {:git/url "https://github.com/defsquare/ragtime"
+                                     :sha     "25d9ac16a9a7537727d836c9f763d76f8130b6f5"}}}
+
